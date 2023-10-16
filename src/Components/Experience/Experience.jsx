@@ -4,6 +4,7 @@ import "./Experience.css";
 // Components
 import IntroHero from "../IntroHero/IntroHero";
 import { companies } from "../../utils/experience";
+import { Motion } from "../Motions";
 
 const Experience = () => {
   return (
@@ -16,21 +17,35 @@ const Experience = () => {
           return (
             <div className="company_items" key={index}>
               <div className="company_header">
-                <h3>{name}</h3>
-                <p>
-                  {started} - {presenet}
-                </p>
+                <Motion>
+                  <h3>{name}</h3>
+                </Motion>
+                <Motion>
+                  <p>
+                    {started} - {presenet}
+                  </p>
+                </Motion>
               </div>
               <div className="company_header">
-                <h3>
-                  <span>{role}</span>
-                </h3>
-                <p>{country}</p>
+                <Motion>
+                  <h3>
+                    <span>{role}</span>
+                  </h3>
+                </Motion>
+                <Motion>
+                  <p>{country}</p>
+                </Motion>
               </div>
-              <p>{bio}</p>
+              <Motion>
+                <p>{bio}</p>
+              </Motion>
               <div className="company_skill_sect">
                 {skills.map((skill, index) => {
-                  return <p key={index}>{skill}</p>;
+                  return (
+                    <Motion key={index}>
+                      <p>{skill}</p>
+                    </Motion>
+                  );
                 })}
               </div>
             </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./GridDots.css";
+import { Motion } from "../Motions";
 
 const GridDots = () => {
   return (
@@ -27,10 +28,12 @@ const GridDots = () => {
         8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
         1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3,
         4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
-      ].map((item, index) => {
+      ].map((_, index) => {
         return (
           <div className="grid_dot" key={index}>
-            <div className="dot_items"></div>
+            <Motion>
+              <div className="dot_items"></div>
+            </Motion>
           </div>
         );
       })}

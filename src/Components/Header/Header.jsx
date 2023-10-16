@@ -11,6 +11,7 @@ import {
 
 // Components
 import Button from "../Button/Button";
+import { Motion, MotionText } from "../Motions";
 
 const Header = () => {
   return (
@@ -26,10 +27,14 @@ const Header = () => {
           <AiFillTwitterCircle size={25} />
         </a>
       </div>
-      <Button
-        title={"My Resume"}
-        icon={<AiOutlineLink color="#0aff9d" size={17} />}
-      />
+      <MotionText>
+        <a href="">
+          <Button
+            title={"My Resume"}
+            icon={<AiOutlineLink color="#0aff9d" size={17} />}
+          />
+        </a>
+      </MotionText>
     </header>
   );
 };

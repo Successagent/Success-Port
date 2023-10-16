@@ -1,0 +1,20 @@
+.contact_sect {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+
+.contact_sect p {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.email_sect {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

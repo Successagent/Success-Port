@@ -5,12 +5,14 @@ import "./Home.css";
 import {
   About,
   Button,
+  Contact,
   Experience,
   GridDots,
   Header,
   Nav,
   Projects,
 } from "../../Components";
+import { Motion } from "../../Components/Motions";
 
 const Home = ({ toggleVisible }) => {
   return (
@@ -21,28 +23,37 @@ const Home = ({ toggleVisible }) => {
           <Header />
           <div className="home_sect_two">
             <div className="home_sect_two_text_container">
-              <h1>
-                Hey, I'm Success<span>.</span>
-              </h1>
-              <h2>
-                I'm a <span>Frontend</span> <span>Developer</span>
-              </h2>
-              <p>
-                I've spent the last 2 years building and scaling software for
-                some pretty cool companies.I thrive on the challenges of
-                responsive web design, ensuring that every project I tackle
-                delivers a smooth and engaging user experience across diverse
-                devices.
-              </p>
-              <a href="mailto:miesineagent@gmail.com">
-                <Button title={"Contact me"} />
-              </a>
+              <Motion>
+                <h1>
+                  Hey, I'm Success<span>.</span>
+                </h1>
+              </Motion>
+              <Motion>
+                <h2>
+                  I'm a <span>Frontend</span> <span>Developer</span>
+                </h2>
+              </Motion>
+              <Motion>
+                <p>
+                  I've spent the last 2 years building and scaling software for
+                  some pretty cool companies.I thrive on the challenges of
+                  responsive web design, ensuring that every project I tackle
+                  delivers a smooth and engaging user experience across diverse
+                  devices.
+                </p>
+              </Motion>
+              <Motion>
+                <a href="mailto:miesineagent@gmail.com">
+                  <Button title={"Contact me"} />
+                </a>
+              </Motion>
             </div>
             <GridDots />
           </div>
           <About />
           <Experience />
           <Projects toggleVisible={toggleVisible} />
+          <Contact />
         </div>
       </div>
     </div>
