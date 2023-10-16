@@ -1,0 +1,35 @@
+.experience_sect .about_hero_sect {
+    flex-direction: row-reverse;
+}
+
+.experience_container p {
+    width: 100%;
+}
+
+.company_header p {
+    width: auto;
+}
+
+.company_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.company_header h3,
+.project_link_sect h3,
+.modal_body h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.company_skill_sect {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(235, 236, 243, 0.2);
+}

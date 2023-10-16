@@ -1,0 +1,64 @@
+.home_header {
+    display: flex;
+}
+
+.home_sect_two {
+    color: white;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.home_sect_two_text_container {
+    position: absolute;
+    z-index: 5;
+    top: 130px;
+}
+
+.home_sect_two_text_container span,
+.about_text span,
+.company_header h3 span,
+.project_container span,
+.modal_body span {
+    color: #0aff9d;
+}
+
+.home_sect_two_text_container h1 {
+    font-size: 80px;
+    line-height: 1.1;
+    font-weight: 900;
+}
+
+.home_sect_two_text_container h2,
+.about_uses h2,
+.modal_body h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0;
+    line-height: 1.1;
+}
+
+.home_sect_two_text_container p,
+.about_uses p,
+.experience_container p,
+.project_container p,
+.modal_body p {
+    width: 75%;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.home_sect_two_text_container .btn {
+    height: 50px;
+    width: 170px;
+    margin-top: 25px;
+    color: black;
+    font-size: 17px;
+    background-color: #0aff9d;
+}
+
+
+.main {
+    width: 95%;
+}

@@ -1,0 +1,40 @@
+.grid_dots {
+    display: grid;
+    grid-template-columns: repeat(25, 20px);
+    grid-template-rows: repeat(20, 20px);
+    margin-right: 50px;
+    width: 100%;
+    gap: 5px;
+    justify-content: flex-end;
+}
+
+.grid_dot {
+    height: 25px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 300ms;
+    cursor: crosshair;
+    z-index: 2;
+}
+
+.grid_dot:hover {
+    background-color: rgba(235, 236, 243, 0.3);
+    border-radius: 8px;
+}
+
+
+.grid_dot>div {
+    border-radius: 50px;
+    height: 8px;
+    width: 8px;
+    background: linear-gradient(180deg, #111, #ebecf3);
+    opacity: 0.35;
+    transition: all ease-in-out 300ms;
+}
+
+
+.grid_dot:hover .dot_items {
+    background: #0aff9d !important;
+}

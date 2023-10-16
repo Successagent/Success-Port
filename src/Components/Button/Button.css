@@ -1,0 +1,16 @@
+.btn {
+    background-color: transparent;
+    border: 1px solid #0aff9d;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    transition: all ease-in-out 300ms;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+}
