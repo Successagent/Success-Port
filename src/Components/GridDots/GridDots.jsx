@@ -1,6 +1,7 @@
 import React from "react";
 import "./GridDots.css";
 import { Motion } from "../Motions";
+import { motion, useInView, useAnimation } from "framer-motion";
 
 const GridDots = () => {
   return (
@@ -30,11 +31,19 @@ const GridDots = () => {
         4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
       ].map((_, index) => {
         return (
-          <Motion key={index}>
-            <div className="grid_dot">
-              <div className="dot_items"></div>
-            </div>
-          </Motion>
+          <motion.div
+            initial={{
+              opacity: 0,
+              translateX: index % 2 === 0 ? -100 : 100,
+              translateY: index % 2 === 0 ? -50 : 50,
+            }}
+            animate={{ opacity: 1, translateX: 0, translateY: 0 }}
+            transition={{ duration: 0.3, delay: index * 0.01 }}
+            key={index}
+            className="grid_dot"
+          >
+            <div className="dot_items"></div>
+          </motion.div>
         );
       })}
     </div>
