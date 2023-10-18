@@ -30,11 +30,11 @@ const GridDots = () => {
         4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
       ].map((_, index) => {
         return (
-          <div className="grid_dot" key={index}>
-            <Motion>
+          <Motion key={index}>
+            <div className="grid_dot">
               <div className="dot_items"></div>
-            </Motion>
-          </div>
+            </div>
+          </Motion>
         );
       })}
     </div>

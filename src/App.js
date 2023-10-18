@@ -4,13 +4,17 @@ import { Modal } from "./Components";
 
 function App() {
   const [visible, setVisible] = useState(false);
+  const [project, setProject] = useState(null);
 
-  const toggleVisible = () => setVisible(!visible);
+  const toggleVisible = (project) => {
+    setVisible(!visible);
+    setProject(project);
+  };
 
   return (
     <>
       <Home toggleVisible={toggleVisible} />
-      {visible && <Modal toggleVisible={toggleVisible} />}
+      {visible && <Modal project={project} toggleVisible={toggleVisible} />}
     </>
   );
 }

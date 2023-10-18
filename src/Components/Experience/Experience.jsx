@@ -8,7 +8,7 @@ import { Motion } from "../Motions";
 
 const Experience = () => {
   return (
-    <section className="experience_sect">
+    <section id="experience" className="experience_sect">
       <IntroHero title={"Experience"} />
       <div className="experience_container">
         {companies.map((company, index) => {

@@ -8,7 +8,7 @@ import { Motion, MotionText } from "../Motions";
 
 const About = () => {
   return (
-    <div className="about_sect">
+    <div id="about" className="about_sect">
       <IntroHero title={"About"} />
       <div className="about_uses">
         <div className="about_description">

@@ -37,6 +37,7 @@
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     height: 400px;
+    object-fit: cover;
 }
 
 .modal_body .project_links_icon_sect {

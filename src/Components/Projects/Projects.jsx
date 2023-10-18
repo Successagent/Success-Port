@@ -4,99 +4,86 @@ import "./Projects.css";
 // Components
 import { IntroHero } from "../../Components";
 
-// Images
-import project1 from "../../assets/Loruki.jpg";
-import project2 from "../../assets/Bella Clonge.jpg";
-
 // Icons
 import { AiOutlineLink, AiFillGithub } from "react-icons/ai";
 import { Motion, MotionText } from "../Motions";
+import { projects } from "../../utils/projects";
 
 const Projects = ({ toggleVisible }) => {
   return (
-    <section className="projects_sect">
+    <section id="projects" className="projects_sect">
       <IntroHero title={"Projects"} />
       <div className="project_container">
-        <div>
-          <Motion>
-            <div className="project_image_sect">
-              <img className="project_image" src={project1} alt="dev success" />
+        {projects.map((project, index) => {
+          const { image, briefs, skills, name, repo, live } = project;
+          return (
+            <div key={index}>
+              <Motion>
+                <div className="project_image_sect">
+                  <img
+                    className="project_image"
+                    src={image}
+                    alt="dev success"
+                  />
+                </div>
+              </Motion>
+              <div className="project_link_sect">
+                <MotionText>
+                  <h3>
+                    {name === "AstroArch-Engineering"
+                      ? name.slice(0, 9)
+                      : name === "Orbital Fashion World"
+                      ? name.slice(0, 7)
+                      : name === "Noseason Real Estate"
+                      ? name.slice(0, 8)
+                      : name}
+                  </h3>
+                </MotionText>
+                <div className="project_link_hr"></div>
+                <div className="project_links_icon_sect">
+                  <a target="_blank" href={repo}>
+                    <AiFillGithub size={28} />
+                  </a>
+                  <a target="_blank" href={live}>
+                    <AiOutlineLink size={28} />
+                  </a>
+                </div>
+              </div>
+              <p>
+                <span>{skills[0]}</span>
+                <span>-</span>
+                <span>{skills[1]}</span>
+                <span>-</span>
+                <span>{skills[2]}</span>
+                <span>-</span>
+                <span>{skills[3]}</span>
+                {skills.length > 4 && <span>-</span>}
+                <span>{skills[4]}</span>
+                {skills.length > 5 && <span>-</span>}
+                <span>{skills[5]}</span>
+                {skills.length > 6 && <span>-</span>}
+                <span>{skills[6]}</span>
+                {skills.length > 7 && <span>-</span>}
+                <span>{skills[7]}</span>
+                {skills.length > 8 && <span>-</span>}
+                <span>{skills[8]}</span>
+                {skills.length > 9 && <span>-</span>}
+                <span>{skills[9]}</span>
+              </p>
+              <Motion>
+                <p>
+                  {briefs[0]}?<span> </span>
+                  <span
+                    onClick={() => toggleVisible(project)}
+                    style={{ cursor: "pointer", textDecoration: "underline" }}
+                  >
+                    learn more
+                  </span>
+                </p>
+              </Motion>
             </div>
-          </Motion>
-          <div className="project_link_sect">
-            <MotionText>
-              <h3>Loruki</h3>
-            </MotionText>
-            <div className="project_link_hr"></div>
-            <div className="project_links_icon_sect">
-              <AiFillGithub size={28} />
-              <AiOutlineLink size={28} />
-            </div>
-          </div>
-          <p>
-            <span>HTML</span>
-            <span>-</span>
-            <span>CSS</span>
-            <span>-</span>
-            <span>JavaScript</span>
-            <span>-</span>
-            <span>React</span>
-          </p>
-          <Motion>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
-              ullam nemo error quibusdam veniam cum quia sapiente odit porro ea?
-              <span> </span>
-              <span
-                onClick={toggleVisible}
-                style={{ cursor: "pointer", textDecoration: "underline" }}
-              >
-                learn more
-              </span>
-            </p>
-          </Motion>
-        </div>
-        <div>
-          <Motion>
-            <div className="project_image_sect">
-              <img className="project_image" src={project2} alt="dev success" />
-            </div>
-          </Motion>
-          <div className="project_link_sect">
-            <MotionText>
-              <h3>Loruki</h3>
-            </MotionText>
-            <div className="project_link_hr"></div>
-            <div className="project_links_icon_sect">
-              <AiFillGithub size={28} />
-              <AiOutlineLink size={28} />
-            </div>
-          </div>
-          <Motion>
-            <p>
-              <span>HTML</span>
-              <span>-</span>
-              <span>CSS</span>
-              <span>-</span>
-              <span>JavaScript</span>
-              <span>-</span>
-              <span>React</span>
-            </p>
-          </Motion>
-          <Motion>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
-              ullam nemo error quibusdam veniam cum quia sapiente odit porro ea?
-              <span> </span>
-              <span
-                onClick={toggleVisible}
-                style={{ cursor: "pointer", textDecoration: "underline" }}
-              >
-                learn more
-              </span>
-            </p>
-          </Motion>
-        </div>
+          );
+        })}
       </div>
     </section>
   );

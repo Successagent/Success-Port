@@ -11,16 +11,19 @@ import {
 
 // Components
 import Button from "../Button/Button";
-import { Motion, MotionText } from "../Motions";
+import { MotionText } from "../Motions";
 
 const Header = () => {
   return (
-    <header>
+    <header id="header">
       <div className="header_icons_sect">
-        <a href="">
+        <a
+          href="https://www.linkedin.com/in/success-agent-58a436235/"
+          target="_blank"
+        >
           <BsLinkedin size={25} />
         </a>
-        <a href="">
+        <a href="https://github.com/Successagent" target="_blank">
           <AiFillGithub size={25} />
         </a>
         <a href="">
