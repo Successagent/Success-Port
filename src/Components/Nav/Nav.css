@@ -39,3 +39,10 @@ nav p {
     align-items: center;
     justify-content: center;
 }
+
+@media(max-width:600px) {
+    nav {
+        width: 100%;
+        display: none;
+    }
+}

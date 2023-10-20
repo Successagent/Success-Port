@@ -45,3 +45,13 @@
     width: 100%;
     justify-content: flex-start;
 }
+
+@media(max-width:600px) {
+    .read_more_modal {
+        padding: 20px;
+    }
+
+    .modal_body {
+        width: 100%;
+    }
+}

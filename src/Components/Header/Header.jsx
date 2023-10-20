@@ -7,6 +7,7 @@ import {
   AiFillTwitterCircle,
   AiFillGithub,
   AiOutlineLink,
+  AiOutlineMenu,
 } from "react-icons/ai";
 
 // Components
@@ -38,6 +39,7 @@ const Header = () => {
           />
         </a>
       </MotionText>
+      <AiOutlineMenu className="header_menu" color="#0aff9d" size={20} />
     </header>
   );
 };

@@ -38,3 +38,32 @@ header button,
     width: 170px;
     font-size: 17px;
 }
+
+.header_menu {
+    display: none;
+}
+
+@media(max-width:600px) {
+    header {
+        padding: 20px;
+    }
+
+    .header_icons_sect {
+        gap: 15px;
+    }
+
+    .header_icons_sect svg {
+        height: 20px;
+        width: 20px;
+    }
+
+    header .btn {
+        height: 40px;
+        width: 150px;
+        font-size: 15px;
+    }
+
+    .header_menu {
+        display: block;
+    }
+}

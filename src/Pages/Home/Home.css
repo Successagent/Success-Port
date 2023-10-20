@@ -61,7 +61,31 @@
     background-color: #0aff9d;
 }
 
-
 .main {
     width: 95%;
+}
+
+@media(max-width:600px) {
+    .home_sect_two {
+        padding: 30px 20px;
+    }
+
+    .home_sect_two_text_container h1,
+    .contact_sect h1 {
+        font-size: 65px;
+        font-weight: 800;
+    }
+
+    .home_sect_two_text_container p {
+        width: 100%;
+    }
+
+    .home_sect_two_text_container h2 {
+        font-size: 38px;
+        font-weight: 600;
+    }
+
+    .home_sect_two_text_container p {
+        font-size: 17px;
+    }
 }

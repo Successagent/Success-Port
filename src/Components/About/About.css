@@ -52,10 +52,47 @@
     background-color: #232323;
     padding: 1px;
     border-radius: 10px;
+    padding-left: 10px;
 }
 
 .about_skills_list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
+}
+
+@media(max-width:600px) {
+
+    .about_sect,
+    .experience_sect,
+    .projects_sect,
+    .contact_sect {
+        padding: 30px 20px;
+        margin-top: 0px;
+    }
+
+    .about_sect {
+        margin-top: 130px;
+    }
+
+    .about_uses {
+        flex-direction: column;
+    }
+
+    .about_uses>div {
+        width: 100% !important;
+    }
+
+    .about_skills_list {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+
+    .about_hero_sect .project_link_hr {
+        display: none;
+    }
+
+    .about_text {
+        font-size: 50px;
+    }
 }

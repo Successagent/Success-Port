@@ -51,7 +51,7 @@ const About = () => {
           <MotionText>
             <h2>Skills</h2>
           </MotionText>
-          <Motion>
+          <MotionText>
             <div className="about_skills_list">
               <p>HTML</p>
               <p>CSS</p>
@@ -64,7 +64,7 @@ const About = () => {
               <p>Git</p>
               <p>Github</p>
             </div>
-          </Motion>
+          </MotionText>
         </div>
       </div>
     </div>

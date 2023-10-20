@@ -61,3 +61,21 @@
     margin-bottom: 10px;
     width: 100%;
 }
+
+@media(max-width:600px) {
+    .project_container {
+        grid-template-columns: 1fr;
+    }
+
+    .project_container img {
+        margin-top: 0;
+    }
+
+    .project_image_sect {
+        padding: 0;
+    }
+
+    .project_link_sect {
+        margin: 20px 0;
+    }
+}
