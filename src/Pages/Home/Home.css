@@ -76,6 +76,11 @@
         font-weight: 800;
     }
 
+
+    .main {
+        width: 100%;
+    }
+
     .home_sect_two_text_container p {
         width: 100%;
     }
