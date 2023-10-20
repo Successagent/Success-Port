@@ -46,6 +46,12 @@
     justify-content: flex-start;
 }
 
+.modal_body li {
+    width: 100%;
+    list-style: square;
+    margin-bottom: 20px;
+}
+
 @media(max-width:600px) {
     .read_more_modal {
         padding: 20px;

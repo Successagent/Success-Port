@@ -45,7 +45,7 @@
 .about_uses p,
 .experience_container p,
 .project_container p,
-.modal_body p,
+.modal_body li,
 .contact_sect p {
     width: 75%;
     font-weight: 400;

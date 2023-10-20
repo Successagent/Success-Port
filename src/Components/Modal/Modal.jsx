@@ -56,13 +56,13 @@ const Modal = ({ toggleVisible, project }) => {
             </p>
           </MotionText>
           <Motion>
-            <p>{briefs[0]}</p>
+            <li>{briefs[0]}</li>
           </Motion>
           <Motion>
-            <p>{briefs[1]}</p>
+            <li>{briefs[1]}</li>
           </Motion>
           <Motion>
-            <p>{briefs[2]}</p>
+            <li>{briefs[2]}</li>
           </Motion>
           <h3>Project Links</h3>
           <Motion>

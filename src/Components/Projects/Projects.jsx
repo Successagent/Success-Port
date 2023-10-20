@@ -72,7 +72,8 @@ const Projects = ({ toggleVisible }) => {
               </p>
               <Motion>
                 <p>
-                  {briefs[0]}?<span> </span>
+                  {briefs[0]}
+                  <span> </span>
                   <span
                     onClick={() => toggleVisible(project)}
                     style={{ cursor: "pointer", textDecoration: "underline" }}
