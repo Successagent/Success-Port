@@ -4,7 +4,7 @@ import orbital from "../assets/orbital.png";
 import noseason from "../assets/noseason.png";
 import studioz from "../assets/studioz.png";
 import bells from "../assets/bells.png";
-import astrosoft from "../assets/astrosoft.png";
+// import astrosoft from "../assets/astrosoft.png";
 
 export const projects = [
   {
@@ -51,7 +51,7 @@ export const projects = [
     ],
     live: "https://orbitalfashionworld.com/shop",
     briefs: [
-      "Secure Payment Integration: Use JavaScript to manage payment interactions while implementing secure payment processing with Paystack. Make sure that encrypted and secure connections are used to protect user data and financial information.",
+      "Use JavaScript to manage payment interactions while implementing secure payment processing with Paystack. Make sure that encrypted and secure connections are used to protect user data and financial information.",
       "Making sure the project is fully responsive utilizing HTML, CSS, and JavaScript  and React to ensure a smooth user experience on a range of screens, from desktop to mobile. This is known as responsive design.",
       "User-friendly UI/UX: For a fantastic user experience (UX), concentrate on using CSS to create an intuitive and aesthetically pleasing user interface (UI). Use slick animations and approachable design cues to improve navigation and elevate the buying experience.",
     ],
@@ -112,24 +112,4 @@ export const projects = [
     ],
     image: bells,
   },
-  // {
-  //   repo: "https://github.com/Successagent/Astrosoftgroup",
-  //   link: "https://www.linkedin.com/in/success-agent-58a436235/",
-  //   name: "AstroSoft Group",
-  //   skills: [
-  //     "HTML",
-  //     "CSS",
-  //     "JavaScript",
-  //     "React",
-  //     "(Framer Motion)",
-  //     "(React-Router-Dom)",
-  //   ],
-  //   live: "https://astrosoftgroup.vercel.app/",
-  //   briefs: [
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ullam nemo error quibusdam veniam cum quia sapiente odit porro ea",
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ullam nemo error quibusdam veniam cum quia sapiente odit porro ea",
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ullam nemo error quibusdam veniam cum quia sapiente odit porro ea",
-  //   ],
-  //   image: astrosoft,
-  // },
 ];
