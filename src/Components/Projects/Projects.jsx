@@ -41,10 +41,10 @@ const Projects = ({ toggleVisible }) => {
                 </MotionText>
                 <div className="project_link_hr"></div>
                 <div className="project_links_icon_sect">
-                  <a target="_blank" href={repo}>
+                  <a rel="noreferrer" target="_blank" href={repo}>
                     <AiFillGithub size={28} />
                   </a>
-                  <a target="_blank" href={live}>
+                  <a rel="noreferrer" target="_blank" href={live}>
                     <AiOutlineLink size={28} />
                   </a>
                 </div>
