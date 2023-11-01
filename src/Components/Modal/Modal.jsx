@@ -17,7 +17,7 @@ const Modal = ({ toggleVisible, project }) => {
   return (
     <div className="read_more_modal">
       <div className="modal_header">
-        <h3></h3>
+        <h3>{""}</h3>
         <AiOutlineClose color="#fff" size={20} onClick={toggleVisible} />
       </div>
 
@@ -67,13 +67,13 @@ const Modal = ({ toggleVisible, project }) => {
           <h3>Project Links</h3>
           <Motion>
             <div className="project_links_icon_sect">
-              <a target="_blank" href={repo}>
+              <a rel="noreferrer" target="_blank" href={repo}>
                 <AiFillGithub size={28} />
               </a>
-              <a target="_blank" href={link}>
+              <a rel="noreferrer" target="_blank" href={link}>
                 <AiOutlineLinkedin size={28} />
               </a>
-              <a target="_blank" href={live}>
+              <a rel="noreferrer" target="_blank" href={live}>
                 <AiOutlineLink size={28} />
               </a>
             </div>

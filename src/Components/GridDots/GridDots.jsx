@@ -1,7 +1,6 @@
 import React from "react";
 import "./GridDots.css";
-import { Motion } from "../Motions";
-import { motion, useInView, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 
 const GridDots = () => {
   return (

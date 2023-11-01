@@ -10,7 +10,7 @@ const MotionText = ({ children, width = "fit-content" }) => {
     if (isInView) {
       controlAnimation.start("visible");
     }
-  }, [isInView]);
+  });
   return (
     <div ref={ref} style={{ position: "relative", width }}>
       <motion.div

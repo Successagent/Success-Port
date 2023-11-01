@@ -1,5 +1,5 @@
 import React from "react";
-import { Motion, MotionText } from "../Motions";
+import { MotionText } from "../Motions";
 
 const IntroHero = ({ title }) => {
   return (

@@ -21,18 +21,23 @@ const Header = () => {
         <a
           href="https://www.linkedin.com/in/success-agent-58a436235/"
           target="_blank"
+          rel="noreferrer"
         >
           <BsLinkedin size={25} />
         </a>
-        <a href="https://github.com/Successagent" target="_blank">
+        <a
+          href="https://github.com/Successagent"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiFillGithub size={25} />
         </a>
-        <a href="">
+        <a rel="noreferrer" href="https://twitter.com/MiesineA">
           <AiFillTwitterCircle size={25} />
         </a>
       </div>
       <MotionText>
-        <a href="">
+        <a rel="noreferrer" href="resume">
           <Button
             title={"My Resume"}
             icon={<AiOutlineLink color="#0aff9d" size={17} />}
