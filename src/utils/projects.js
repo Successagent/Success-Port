@@ -4,9 +4,37 @@ import orbital from "../assets/orbital.png";
 import noseason from "../assets/noseason.png";
 import studioz from "../assets/studioz.png";
 import bells from "../assets/bells.png";
-// import astrosoft from "../assets/astrosoft.png";
+import astrosoft from "../assets/Doiyo - Secure Gateway to P2P foreign currency Exchange in Africa - Google Chrome 5_22_2024 2_32_45 AM.png";
 
 export const projects = [
+  {
+    repo: "https://github.com/Successagent/Astro-Arch-Engineering",
+    link: "https://www.linkedin.com/in/success-agent-58a436235/",
+    name: "Doiyo Exchange",
+    skills: [
+      "HTML",
+      "CSS",
+      "TypeScript",
+      "NextJs",
+      "Styled-component",
+      "Material-UI",
+    ],
+    live: "https://www.doiyo.ng/",
+    briefs: [
+      "Unlock the power to convert your digital assets seamlessly and securely. Whether you need or have Perfect Money, Skrill, USDT, Wise, Revolut, or other digital currencies, we offer you the best rates and a secure platform for conversions.",
+      `
+      for the cryptocurrency trading platform, designed and built
+user interfaces that are easy to use and guarantee smooth
+operation.
+      `,
+      `
+      improved user experience across a range of devices with
+optimized website speed thanks to responsive design and
+effective coding techniques.
+      `,
+    ],
+    image: astrosoft,
+  },
   {
     repo: "https://github.com/Successagent/Astro-Arch-Engineering",
     link: "https://www.linkedin.com/in/success-agent-58a436235/",

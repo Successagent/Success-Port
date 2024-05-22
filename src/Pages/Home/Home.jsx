@@ -35,11 +35,16 @@ const Home = ({ toggleVisible }) => {
               </Motion>
               <Motion>
                 <p>
-                  I've spent the last 2 years building and scaling software for
-                  some pretty cool companies.I thrive on the challenges of
-                  responsive web design, ensuring that every project I tackle
-                  delivers a smooth and engaging user experience across diverse
-                  devices.
+                  Am a passionate frontend engineer with 2+ years of experience
+                  working with Html, Css, Javascript, TypeScript, React,
+                  Material-UI, Styled-Component and Nextjs. Over my 2+ years of
+                  experience, I have built up a diverse range of skills and
+                  qualities, which are good fit for a frontend engineer. I
+                  thrive on the challenges of responsive web designs, making
+                  sure every project I came across delivers smooth and engaging
+                  user experience. I have keen eye for creating visually
+                  appealing and user-friendly digital experience. Also I take in
+                  transforming design mockups into clean and efficient codes.
                 </p>
               </Motion>
               <Motion>
