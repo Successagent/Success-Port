@@ -16,15 +16,9 @@ const About = () => {
             <p>
               Hey! I'm Success, if you haven't already gathered that by now. I'm
               a Frontend Development Software Engineer from Nigeria. I
-              specialize in the Frontend, primarily HTML, CSS, Javascript,
-              React, Tailwind etc, but love building with whatever tools are
-              right for the job.
-            </p>
-          </Motion>
-          <Motion>
-            <p>
-              I currently work for AstroSoft Software Development Company in
-              Nigeria As a Frontend And Mobile App Developer.
+              specialize in the Frontend, primarily HTML, CSS, Styled-Component,
+              Javascript, TypeScript, React and NextJs etc, but love building
+              with whatever tools are right for the job.
             </p>
           </Motion>
           <Motion>
@@ -56,6 +50,7 @@ const About = () => {
               <p>HTML</p>
               <p>CSS</p>
               <p>JavaScript</p>
+              <p>TypeScript</p>
               <p>React</p>
               <p>React Native</p>
               <p>Tailwind</p>
@@ -63,6 +58,8 @@ const About = () => {
               <p>Figma</p>
               <p>Git</p>
               <p>Github</p>
+              <p>Styled-component</p>
+              <p>NextJs</p>
             </div>
           </MotionText>
         </div>
