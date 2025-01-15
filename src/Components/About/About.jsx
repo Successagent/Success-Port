@@ -52,13 +52,9 @@ const About = () => {
               <p>JavaScript</p>
               <p>TypeScript</p>
               <p>React</p>
-              <p>React Native</p>
               <p>Tailwind</p>
               <p>Rest APIS</p>
-              <p>Figma</p>
               <p>Git</p>
-              <p>Github</p>
-              <p>Styled-component</p>
               <p>NextJs</p>
             </div>
           </MotionText>

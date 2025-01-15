@@ -35,11 +35,13 @@ const Home = ({ toggleVisible }) => {
               </Motion>
               <Motion>
                 <p>
-                  I've spent the last 2 years building and scaling software for
-                  some pretty cool companies.I thrive on the challenges of
-                  responsive web design, ensuring that every project I tackle
-                  delivers a smooth and engaging user experience across diverse
-                  devices.
+                  An enthusiastic and meticulous Frontend Developer with over 3
+                  years of experience building responsive and intuitive web
+                  interfaces. Highly skilled in modern web technologies such as
+                  HTML, CSS, JavaScript, and frameworks like React and Nextjs.
+                  Proficient in converting intricate design concepts into
+                  dynamic, interactive user experiences while maintaining
+                  cross-browser compatibility and top-notch performance.
                 </p>
               </Motion>
               <Motion>

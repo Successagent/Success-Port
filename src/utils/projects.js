@@ -5,6 +5,7 @@ import noseason from "../assets/noseason.png";
 import studioz from "../assets/studioz.png";
 import bells from "../assets/bells.png";
 import astrosoft from "../assets/Doiyo - Secure Gateway to P2P foreign currency Exchange in Africa - Google Chrome 5_22_2024 2_32_45 AM.png";
+import bingtellar from "../assets/bingtellar.png";
 
 export const projects = [
   {
@@ -34,6 +35,17 @@ effective coding techniques.
       `,
     ],
     image: astrosoft,
+  },
+  {
+    repo: "#",
+    link: "https://www.linkedin.com/in/success-agent-58a436235/",
+    name: "Bingtellar",
+    skills: ["HTML", "CSS", "JavaScript", "React", "SCSS"],
+    live: "https://bingtellar.com/",
+    briefs: [
+      "Bingtellar is a financial technology company that builds payments infrastructure for global citizens (small businesses, freelancers, international contractors, remote workers) to be truly borderless. Our suite of products provides multiple ways to exchange between local currencies and digital currencies, get paid and move your money across borders whenever you need it, wherever you are. We are committed to making payments easy, fun and more accessible to everyone.",
+    ],
+    image: bingtellar,
   },
   {
     repo: "https://github.com/Successagent/Astro-Arch-Engineering",
