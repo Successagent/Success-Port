@@ -37,7 +37,11 @@ const Header = () => {
         </a>
       </div>
       <MotionText>
-        <a rel="noreferrer" href="resume">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="file:///C:/Users/HP/OneDrive/Documents/Success's%20Latest%20Resume.pdf"
+        >
           <Button
             title={"My Resume"}
             icon={<AiOutlineLink color="#0aff9d" size={17} />}
