@@ -40,7 +40,7 @@ const Header = () => {
         <a
           rel="noreferrer"
           target="_blank"
-          href="file:///C:/Users/HP/OneDrive/Documents/Success's%20Latest%20Resume.pdf"
+          href="https://drive.google.com/file/d/1BS27fDrUUSnXlIXbVhAAFYRFeOguqPcM/view?usp=drive_link"
         >
           <Button
             title={"My Resume"}
