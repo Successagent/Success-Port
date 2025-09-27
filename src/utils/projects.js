@@ -89,7 +89,7 @@ effective coding techniques.
       "(React-Toastify)",
       "Axios",
     ],
-    live: "https://orbitalfashionworld.com/shop",
+    live: "https://orbitalfashion.vercel.app",
     briefs: [
       "Use JavaScript to manage payment interactions while implementing secure payment processing with Paystack. Make sure that encrypted and secure connections are used to protect user data and financial information.",
       "Making sure the project is fully responsive utilizing HTML, CSS, and JavaScript  and React to ensure a smooth user experience on a range of screens, from desktop to mobile. This is known as responsive design.",
